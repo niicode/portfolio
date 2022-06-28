@@ -1,19 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio
 
-> Description the project.
+> This is a portfolio application that gives details information about my skills and past experiences.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- HTML
+- Css 
 
 
 ## Getting Started
@@ -24,33 +19,28 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Clone the repository
 
-### Setup
+### Open the index.html in your prefered browser
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+### Right click to inspect and choose mobile version from developer tools to view the mobile version
 
 
 
-## Authors
 
-👤 **Author1**
+## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Nii Darku**
+
+- GitHub: [@githubhandle](https://github.com/niicode)
+- Twitter: [@twitterhandle](https://twitter.com/_niicode)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/)
 
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/nii-darku-dodoo-082018148/)
 
 ## 🤝 Contributing
 
@@ -64,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse 
 
 ## 📝 License
 

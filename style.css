@@ -41,8 +41,10 @@ a {
 }
 
 .main {
-  position: absolute;
-  top: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
   padding: 38px;
 }
 

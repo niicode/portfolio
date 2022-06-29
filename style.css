@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-style {
+  font-family: 'Poppins', sans-serif;
+}
+
+.color {
+  color: #7f8cff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-text {
+  font-weight: 700;
+  color: #6070ff;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('/assets/images/header-shapes\ mobile@2x.png');
+  background-repeat: no-repeat;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 38px;
+}
+
+.main-heading {
+  line-height: 1.5em;
+}
+
+.main-description {
+  font-weight: 300;
+}
+
+.main-connect {
+  font-weight: 100;
+  line-height: 3.5rem;
+}
+
+.main-socials {
+  display: flex;
+  justify-content: space-around;
+  width: 58%;
+}

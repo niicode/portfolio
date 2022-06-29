@@ -14,7 +14,7 @@
   color: #7f8cff;
 }
 
-nav {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,6 +38,7 @@ a {
   width: 100%;
   height: 100vh;
   background-image: url('/assets/images/header-shapes\ mobile@2x.png');
+  background-repeat: no-repeat;
 }
 
 .main {

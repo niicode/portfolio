@@ -19,7 +19,7 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Clone the repository
+### Clone this repository - git clone https://github.com/niicode/portfolio.git
 
 ### Open the index.html in your prefered browser
 
@@ -42,10 +42,6 @@ To get a local copy up and running follow these simple example steps.
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 

@@ -11,9 +11,8 @@
 }
 
 .color {
-  color:#7F8CFF
+  color: #7f8cff;
 }
-
 
 nav {
   display: flex;
@@ -26,9 +25,9 @@ a {
   text-decoration: none;
 }
 
-.logo-text { 
-  font-weight: 700;  
-  color: #6070FF;
+.logo-text {
+  font-weight: 700;
+  color: #6070ff;
 }
 
 .menu-icon {

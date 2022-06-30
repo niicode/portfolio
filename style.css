@@ -6,8 +6,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e5e5e5;
+}
+
 .font-style {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .color {
@@ -19,6 +23,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: #fff;
 }
 
 a {
@@ -36,16 +41,18 @@ a {
 
 .container {
   width: 100%;
-  height: 100vh;
-  background-image: url('/assets/images/header-shapes\ mobile@2x.png');
+  height: 70vh;
+  background-image: url("/assets/images/header-shapes\ mobile@2x.png");
   background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 0 0 0 80px;
 }
 
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 80vh;
+  min-height: 75vh;
   padding: 38px;
 }
 
@@ -66,4 +73,228 @@ a {
   display: flex;
   justify-content: space-around;
   width: 58%;
+}
+
+.main-socials li {
+  list-style: none;
+}
+
+.main-projects {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-project-1 {
+  width: 327px;
+  height: 649px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin: auto;
+  background-color: #fff;
+  margin-bottom: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  margin-top: -7%;
+}
+
+.card h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 19px;
+}
+
+.card h4 {
+  font-weight: 600;
+}
+
+.card li {
+  font-weight: 600;
+  color: #7a869a;
+}
+
+.card-highlights {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card-highlights ul {
+  display: flex;
+}
+
+.desc {
+  margin-left: 30px;
+}
+
+.card-description {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.card-languages {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card-languages li {
+  list-style: none;
+  background-color: #ebebff;
+  color: #6070ff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.lang-desc {
+  margin-left: 12px;
+}
+
+section button {
+  background-color: #fff;
+  color: #6070ff;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.card button {
+  background-color: #fff;
+  color: #6070ff;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.about {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 0 80px 0 0;
+}
+
+.about h2 {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: left;
+}
+
+.about p {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.connect-socials {
+  margin-left: 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.languages {
+  margin-top: 30px;
+}
+
+.languages h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.languages .vector {
+  cursor: pointer;
+  width: 20px;
+  height: 11px;
+}
+
+.languages-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.languages li {
+  list-style: none;
+}
+
+.languages a {
+  text-decoration: none;
+  color: #000;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f9;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.language img {
+  width: 48px;
+  height: 48px;
+}
+
+.language-text {
+  margin-left: 12px;
+  align-self: center;
+}
+
+.language h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.frameworks {
+  margin-top: 30px;
+}
+
+.frameworks h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.frameworks .vector {
+  cursor: pointer;
+  width: 20px;
+  height: 11px;
+}
+
+.framework-list {
+  margin-bottom: 10px;
+  padding: 14px;
+  border-bottom: 1px solid #dfe1e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -189,7 +189,7 @@ section button {
 }
 
 .about p {
-  margin-top: 30px; 
+  margin-top: 30px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -199,8 +199,6 @@ section button {
 .connect-socials {
   margin-left: 16px;
 }
-
-
 
 .btn:hover {
   cursor: pointer;

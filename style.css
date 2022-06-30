@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color:#e5e5e5;;
+  background-color: #e5e5e5;
 }
 
 .font-style {
@@ -44,8 +44,8 @@ a {
   height: 70vh;
   background-image: url('/assets/images/header-shapes\ mobile@2x.png');
   background-repeat: no-repeat;
-  background-color: #fff; 
-  border-radius: 0px 0px 0px 80px;
+  background-color: #fff;
+  border-radius: 0 0 0 80px;
 }
 
 .main {
@@ -53,7 +53,8 @@ a {
   flex-direction: column;
   justify-content: center;
   min-height: 75vh;
-  padding: 38px; 
+  padding: 38px;
+
 }
 
 .main-heading {
@@ -75,7 +76,6 @@ a {
   width: 58%;
 }
 
-
 .main-project-1 {
   width: 327px;
   height: 649px;
@@ -95,10 +95,10 @@ a {
   margin-top: -7%;
 }
 
-.card h3 { 
+.card h3 {
   font-style: normal;
   font-weight: 700;
-  font-size: 32px; 
+  font-size: 32px;
   margin-top: 19px;
 }
 
@@ -110,7 +110,6 @@ a {
   font-weight: 600;
   color: #7a869a;
 }
-
 
 .card-highlights {
   margin-top: 20px;
@@ -132,7 +131,7 @@ a {
 
 .card-languages {
   margin-top: 20px; 
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -140,7 +139,7 @@ a {
   background-color: #ebebff;
   color: #6070ff;
   padding: 4px 12px;
-  border-radius: 8px; 
+  border-radius: 8px;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -165,7 +164,7 @@ a {
 .about {
   background-color: #fff;
   padding: 20px;
-  border-radius:0px 80px 0px 0px ;
+  border-radius:0 80px 0 0;
 }
 
 .about h2 {
@@ -183,7 +182,6 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  
 }
 
 .connect-socials {
@@ -263,7 +261,6 @@ section button {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  
 }
 
 .frameworks .vector {

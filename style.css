@@ -152,6 +152,17 @@ a {
   margin-left: 12px;
 }
 
+section button {
+  background-color: #fff;
+  color: #6070ff;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
 .card button {
   background-color: #fff;
   color: #6070ff;
@@ -178,8 +189,7 @@ a {
 }
 
 .about p {
-  margin-top: 30px;
-  font-family: "Poppins";
+  margin-top: 30px; 
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -190,16 +200,7 @@ a {
   margin-left: 16px;
 }
 
-section button {
-  background-color: #fff;
-  color: #6070ff;
-  font-weight: 500;
-  margin-top: 20px;
-  width: 124px;
-  height: 48px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-}
+
 
 .btn:hover {
   cursor: pointer;

@@ -75,6 +75,16 @@ a {
   width: 58%;
 }
 
+.main-socials li {
+  list-style: none;
+}
+
+.main-projects {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
 .main-project-1 {
   width: 327px;
   height: 649px;
@@ -138,7 +148,8 @@ a {
   align-items: center;
 }
 
-.card-languages p {
+.card-languages li {
+  list-style: none;
   background-color: #ebebff;
   color: #6070ff;
   padding: 4px 12px;
@@ -219,14 +230,23 @@ section button {
 
 .languages .vector {
   cursor: pointer;
-  width: 12px;
-  height: 6px;
+  width: 20px;
+  height: 11px;
 }
 
 .languages-heading {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+}
+
+.languages li {
+  list-style: none;
+}
+
+.languages a {
+  text-decoration: none;
+  color: #000;
 }
 
 .language {
@@ -266,8 +286,8 @@ section button {
 
 .frameworks .vector {
   cursor: pointer;
-  width: 12px;
-  height: 6px;
+  width: 20px;
+  height: 11px;
 }
 
 .framework-list {

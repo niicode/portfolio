@@ -18,7 +18,7 @@ body {
   color: #7f8cff;
 }
 
-header {
+header { 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,8 +144,8 @@ a {
 
 .card-languages {
   margin-top: 20px;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
 }
 
 .card-languages li {
@@ -157,6 +157,9 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  width: 23%;
+  position: relative;
+  float: left;
 }
 
 .lang-desc {

@@ -343,6 +343,7 @@ form {
   text-align: center;
   color: #ebebff;
   width: 100%;
+  padding: 0.7rem;
 }
 
 .contact-wrapper input {
@@ -363,6 +364,10 @@ form {
   margin-bottom: 1.25rem;
   border-radius: 0.5rem;
   border: 0.0625rem solid #dfdbdc;
+}
+
+.contact-wrapper input::placeholder {
+  color: #172b4e;
 }
 
 .contact-wrapper textarea {

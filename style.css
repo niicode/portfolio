@@ -533,6 +533,8 @@ form {
 
   .main-project-1 img {
     width: fit-content;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
   }
 
   .card-description {

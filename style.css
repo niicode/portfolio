@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: "Popins", sans-serif;
+  font-family: 'Popins', sans-serif;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 .font-style {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .color {
@@ -50,7 +50,7 @@ a {
 .container {
   width: 100%;
   height: 75vh;
-  background-image: url("./assets/images/backgroundImage.png");
+  background-image: url('./assets/images/backgroundImage.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 bottom;
@@ -317,7 +317,7 @@ section button {
 
 .footer {
   display: flex;
-  background-image: url("./assets/images/background-2.png");
+  background-image: url('./assets/images/background-2.png');
   background-color: #fff !important;
   background-repeat: no-repeat;
   background-size: cover;
@@ -338,7 +338,7 @@ form {
   flex-direction: column;
   align-items: center;
   padding: 6.4375rem 1.5rem 0 1.5rem;
-  background-image: url("./assets/images/background-1.png");
+  background-image: url('./assets/images/background-1.png');
   background-position-x: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -367,14 +367,14 @@ form {
   height: 3rem;
 }
 
-.contact-wrapper input[type="text"] {
+.contact-wrapper input[type='text'] {
   padding-left: 1rem;
   margin-bottom: 1.25rem;
   border-radius: 0.5rem;
   border: 0.0625rem solid #dfdbdc;
 }
 
-.contact-wrapper input[type="email"] {
+.contact-wrapper input[type='email'] {
   padding-left: 1rem;
   margin-bottom: 1.25rem;
   border-radius: 0.5rem;
@@ -517,11 +517,11 @@ form {
     animation: moveInRight 3s ease-in-out;
   }
 
-.work-item-2:hover {
+  .work-item-2:hover {
     transform: translate(10px, -10px);
   }
 
-.work-card {
+  .work-card {
     width: 544px;
     height: 448px;
     margin: auto;

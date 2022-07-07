@@ -476,8 +476,10 @@ form {
     margin-bottom: 50px;
   }
 
-  .main-socials {
-    width: 23%;
+  .main-socials-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
   }
 
   .main-description {

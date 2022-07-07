@@ -502,6 +502,10 @@ form {
     animation: moveInLeft 3s ease-in-out;
   }
 
+  .work-item-1:hover {
+    transform: translate(10px, -10px);
+  }
+
   .work-item-2 {
     width: 1196px;
     height: 496px;
@@ -513,7 +517,11 @@ form {
     animation: moveInRight 3s ease-in-out;
   }
 
-  .work-card {
+.work-item-2:hover {
+    transform: translate(10px, -10px);
+  }
+
+.work-card {
     width: 544px;
     height: 448px;
     margin: auto;

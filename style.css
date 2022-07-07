@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Popins", sans-serif;
+}
+
 body {
   background-color: #e5e5e5;
 }
@@ -18,12 +22,16 @@ body {
   color: #7f8cff;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #fff;
+}
+
+.menu {
+  display: none;
 }
 
 a {
@@ -41,9 +49,11 @@ a {
 
 .container {
   width: 100%;
-  height: 70vh;
-  background-image: url("/assets/images/header-shapes\ mobile@2x.png");
+  height: 75vh;
+  background-image: url("./assets/images/backgroundImage.png");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 bottom;
   background-color: #fff;
   border-radius: 0 0 0 80px;
 }
@@ -54,6 +64,7 @@ a {
   justify-content: center;
   min-height: 75vh;
   padding: 38px;
+  margin-bottom: 100px;
 }
 
 .main-heading {
@@ -102,6 +113,10 @@ a {
 
 .card {
   margin-top: -7%;
+}
+
+.main-project-1 img {
+  width: 100%;
 }
 
 .card h3 {
@@ -155,7 +170,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  width: 23%;
   position: relative;
   float: left;
 }
@@ -409,4 +423,176 @@ form {
 .contact-button:hover {
   background-color: #6070ff;
   color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .menu a {
+    display: block;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #344563;
+    width: 50%;
+    text-decoration: none;
+    justify-self: center;
+  }
+
+  .menu a:hover {
+    color: #6070ff;
+  }
+
+  .menu a.active {
+    color: #6070ff;
+  }
+
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 30px;
+    position: fixed;
+    top: 0;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    justify-self: center;
+    margin-right: 10%;
+  }
+
+  .logo-text {
+    margin-left: 10%;
+  }
+
+  .main {
+    width: 60%;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 50px;
+  }
+
+  .main-socials-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+  }
+
+  .main-description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .work-item-1 {
+    width: 1196px;
+    height: 496px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-bottom: 10%;
+  }
+
+  .work-item-2 {
+    width: 1196px;
+    height: 496px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    gap: 40px;
+    margin-bottom: 10%;
+  }
+
+  .work-card {
+    width: 544px;
+    height: 448px;
+    margin: auto;
+    padding: 20px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-project-1 img {
+    width: fit-content;
+  }
+
+  .card-description {
+    margin-bottom: 20px;
+  }
+
+  .card-languages {
+    margin-bottom: 20px;
+  }
+
+  .about {
+    display: flex;
+  }
+
+  .about-description {
+    width: 50%;
+    padding: 35px;
+    margin: 7%;
+  }
+
+  .main-socials {
+    width: 30%;
+  }
+
+  .about-languages {
+    width: 50%;
+    padding: 35px;
+    margin: 7%;
+    margin-left: -6%;
+  }
+
+  .languages ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .m-left {
+    margin-left: 10px;
+  }
+
+  .language {
+    flex-direction: column;
+    width: 112px;
+    height: 120px;
+  }
+
+  .language img {
+    position: relative;
+    left: -13px;
+  }
+
+  .javascript {
+    position: relative;
+    top: 20px;
+    left: -6px;
+  }
+
+  .html {
+    position: relative;
+    top: 20px;
+    left: -21px;
+  }
+
+  .contact-description {
+    width: 50%;
+  }
+
+  form {
+    width: 40%;
+  }
+
+  .web-centered {
+    text-align: center;
+  }
 }

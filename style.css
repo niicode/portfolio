@@ -65,6 +65,7 @@ a {
   min-height: 75vh;
   padding: 38px;
   margin-bottom: 100px;
+  animation: moveInBottom 3s ease-in-out;
 }
 
 .main-heading {
@@ -418,6 +419,8 @@ form {
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 0.75rem 1rem;
+  animation: moveInBottom 5s ease-out 0.75s;
+  animation-fill-mode: backwards;
 }
 
 .contact-button:hover {
@@ -496,6 +499,7 @@ form {
     flex-wrap: nowrap;
     gap: 20px;
     margin-bottom: 10%;
+    animation: moveInLeft 3s ease-in-out;
   }
 
   .work-item-2 {
@@ -506,6 +510,7 @@ form {
     flex-wrap: nowrap;
     gap: 40px;
     margin-bottom: 10%;
+    animation: moveInRight 3s ease-in-out;
   }
 
   .work-card {
@@ -594,5 +599,49 @@ form {
 
   .web-centered {
     text-align: center;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

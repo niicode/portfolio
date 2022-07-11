@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Portfolio-blue)
 
 # Portfolio
 
@@ -7,21 +7,24 @@
 
 ## Built With
 
-- HTML
-- Css 
+- `HTML`
+- `Css`
+- `Github Pages` 
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+##Live Demo
+
+[![](https://img.shields.io/badge/Live-Demo-blue)](https://niicode.github.io/portfolio/)
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Clone this repository - git clone https://github.com/niicode/portfolio.git
+### Clone this repository 
+- `git clone https://github.com/niicode/portfolio.git`
 
-### Open the index.html in your prefered browser
+- Open the index.html in your prefered browser
 
 ### Right click to inspect and choose mobile version from developer tools to view the mobile version
 

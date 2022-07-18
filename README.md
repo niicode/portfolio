@@ -35,10 +35,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Nii Darku**
 
-- GitHub: [@githubhandle](https://github.com/niicode)
-- Twitter: [@twitterhandle](https://twitter.com/_niicode)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/)
-
+- GitHub: [@niicode](https://github.com/niicode)
+- Twitter: [@_niicode](https://twitter.com/_niicode)
+- LinkedIn: [Nii Darku](https://linkedin.com/in/nii-darku-dodoo-082018148/)
 
 ## 🤝 Contributing
 

@@ -1,21 +1,20 @@
-var hamburgerMenu = document.querySelector(".menu-icon");
+const hamburgerMenu = document.querySelector('.menu-icon');
+const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
+const mobileClose = document.querySelector('.mobile-menu-close');
 
-hamburgerMenu.addEventListener("click", () => {
+hamburgerMenu.addEventListener('click', () => {
   // show the mobile menu
-  document.querySelector(".mobile-menu").style.display = "flex";
+  document.querySelector('.mobile-menu').style.display = 'flex';
 });
 
-var mobileClose = document.querySelector(".mobile-menu-close");
-
-mobileClose.addEventListener("click", () => {
+mobileClose.addEventListener('click', () => {
   // show the mobile menu
-  document.querySelector(".mobile-menu").style.display = "none";
+  document.querySelector('.mobile-menu').style.display = 'none';
 });
 
 // close menu on click mobile-nav-item
-const mobileNavItems = document.querySelectorAll(".mobile-nav-item");
 mobileNavItems.forEach((item) => {
-  item.addEventListener("click", () => {
-    document.querySelector(".mobile-menu").style.display = "none";
+  item.addEventListener('click', () => {
+    document.querySelector('.mobile-menu').style.display = 'none';
   });
 });

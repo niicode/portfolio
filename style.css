@@ -50,15 +50,6 @@ body {
   animation: moveInBottomLeft;
 }
 
-.mobile-menu > a {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-  text-decoration: none;
-}
-
 .mobile-menu-close {
   justify-content: flex-end;
 }
@@ -76,6 +67,15 @@ nav {
 }
 
 a {
+  text-decoration: none;
+}
+
+.mobile-menu > a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
   text-decoration: none;
 }
 

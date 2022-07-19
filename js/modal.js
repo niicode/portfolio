@@ -25,7 +25,7 @@ const works = {
     source: 'https://github.com/niicode/portfolio',
     live_demo: 'https://niicode.github.io/portfolio/',
   },
-  printingx:{
+  printingx: {
     title: 'Printing Made Easy',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -84,7 +84,7 @@ let workCard = '';
 let index = 0;
 
 const appendWorks = (works) => {
-    /* eslint-enable no-restricted-syntax */
+  /* eslint-enable no-restricted-syntax */
   for (const key in works) {
     if (key) {
       index += 1;

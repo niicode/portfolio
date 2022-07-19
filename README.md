@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@_niicode](https://twitter.com/_niicode)
 - LinkedIn: [Nii Darku](https://linkedin.com/in/nii-darku-dodoo-082018148/)
 
-👤 **Bantealem**
+👤 **Bantealem Geto**
 
 - GitHub: [Bantealem](https://github.com/Bantealem)
 - Twitter: [Bantealem](https://twitter.com/BantealemG)

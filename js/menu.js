@@ -1,6 +1,6 @@
-const hamburgerMenu = document.querySelector('.menu-icon');
-const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
-const mobileClose = document.querySelector('.mobile-menu-close');
+let hamburgerMenu = document.querySelector('.menu-icon');
+let mobileNavItems = document.querySelectorAll('.mobile-nav-item');
+let mobileClose = document.querySelector('.mobile-menu-close');
 
 hamburgerMenu.addEventListener('click', () => {
   // show the mobile menu

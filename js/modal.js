@@ -1,7 +1,7 @@
 const workCardContainer = document.querySelector('.main-projects');
 
-const works = {
-  avocode: {
+const works = [
+  avocode= {
     title: 'Avocode Portfolio',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -13,7 +13,7 @@ const works = {
     source: 'https://github.com/niicode/portfolio',
     live_demo: 'https://niicode.github.io/portfolio/',
   },
-  calenda: {
+  calenda= {
     title: 'Calenda Web App',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -25,7 +25,7 @@ const works = {
     source: 'https://github.com/niicode/portfolio',
     live_demo: 'https://niicode.github.io/portfolio/',
   },
-  printing: {
+  printing= {
     title: 'Printing Made Easy',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -37,7 +37,7 @@ const works = {
     source: 'https://github.com/niicode/portfolio',
     live_demo: 'https://niicode.github.io/portfolio/',
   },
-  gymfit: {
+  gymfit= {
     title: 'GymFit',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -49,7 +49,7 @@ const works = {
     source: 'https://github.com/niicode/portfolio',
     live_demo: 'https://niicode.github.io/portfolio/',
   },
-};
+];
 
 const workCardShouldReverse = (index) => {
   if (index % 2 === 0) {
@@ -84,6 +84,7 @@ let workCard = '';
 let index = 0;
 
 const appendWorks = (works) => {
+    /* eslint-enable no-restricted-syntax */
   for (const key in works) {
     if (key) {
       index += 1;

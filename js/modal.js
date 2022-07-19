@@ -1,4 +1,4 @@
-let workCardContainer = document.querySelector('.main-projects');
+const workCardContainer = document.querySelector('.main-projects');
 
 const works = {
   avocode: {
@@ -32,7 +32,7 @@ const works = {
     details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featured_image: './assets/images/screenshot4.png',
-    lang_list: ["javascript", 'html', 'css'],
+    lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Home', 'Works', 'Calenda'],
     source: 'https://github.com/niicode/portfolio',
     live_demo: 'https://niicode.github.io/portfolio/',
@@ -53,12 +53,12 @@ const works = {
 
 const workCardShouldReverse = (index) => {
   if (index % 2 === 0) {
-    return "row-reverse work-item-2";
+    return 'row-reverse work-item-2';
   }
-  return "work-item-1";
-}
+  return 'work-item-1';
+};
 
-const breadcrumbsHtml = (workObj, key, bread = "") => {
+const breadcrumbsHtml = (workObj, key, bread = '') => {
   /* eslint-disable no-restricted-syntax */
   for (const breadcrumb in workObj[key].breadcrumbs) {
     if (breadcrumb) {
@@ -67,9 +67,9 @@ const breadcrumbsHtml = (workObj, key, bread = "") => {
   }
   /* eslint-enable no-restricted-syntax */
   return bread;
-}
+};
 
-const languageHtml = (workObj, key, langList = "") => {
+const languageHtml = (workObj, key, langList = '') => {
   /* eslint-disable no-restricted-syntax */
   for (const lang in workObj[key].lang_list) {
     if (lang) {
@@ -78,11 +78,12 @@ const languageHtml = (workObj, key, langList = "") => {
   }
   /* eslint-enable no-restricted-syntax */
   return langList;
-}
+};
 
 let workCard = "";
 let index = 0;
 
+/* eslint-enable no-restricted-syntax */
 for (const key in works) {
   if (key) {
     index += 1;
@@ -108,24 +109,24 @@ for (const key in works) {
           </button>
         </div>
       </section>`;
-  }
-}
+  };
+};
 
 workCardContainer.innerHTML = workCard;
 const seeProjectButtons = document.querySelectorAll('.project-button');
 const closeModal = document.querySelector('.modal-close');
 
-const showWorkModal = (work) => {// fetch the work from the works object
-    const workDetails = works[work];
-    document.querySelector('.modal-title').innerHTML = workDetails.title;// insert title to the modal
-    document.querySelector('.featured-image').src = workDetails.featured_image;// insert image to the modal
-    document.querySelector('.modal-description').innerHTML = workDetails.details; // insert description to the modal
-    document.querySelector('.work-modal-breadcrumbs > ul').innerHTML = breadcrumbsHtml(works, work); // add the breadcrumbs to the modal
-    document.querySelector('.work-modal-languages > ul').innerHTML = languageHtml(works, work);// add the languages to the modal
-    document.querySelector('#work-modal-live-demo').href = workDetails.live_demo;// add live demo link
-    document.querySelector('#work-modal-source').href = workDetails.source;  // add source link
-    document.querySelector('.modal').style.display = 'flex';// show the modal with transition
-}
+const showWorkModal = (work) => { // fetch the work from the works object
+  const workDetails = works[work];
+  document.querySelector('.modal-title').innerHTML = workDetails.title; // insert title to the modal
+  document.querySelector('.featured-image').src = workDetails.featured_image;// insert image to the modal
+  document.querySelector('.modal-description').innerHTML = workDetails.details; // insert description to the modal
+  document.querySelector('.work-modal-breadcrumbs > ul').innerHTML = breadcrumbsHtml(works, work); // add the breadcrumbs to the modal
+  document.querySelector('.work-modal-languages > ul').innerHTML = languageHtml(works, work);// add the languages to the modal
+  document.querySelector('#work-modal-live-demo').href = workDetails.live_demo;// add live demo link
+  document.querySelector('#work-modal-source').href = workDetails.source;// add source link
+  document.querySelector('.modal').style.display = 'flex';// show the modal with transition
+};
 
 seeProjectButtons.forEach((button) => {
   button.addEventListener('click', (event) => {

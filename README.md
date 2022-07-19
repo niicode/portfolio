@@ -31,13 +31,19 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Author
+## Authors
 
 👤 **Nii Darku**
 
 - GitHub: [@niicode](https://github.com/niicode)
 - Twitter: [@_niicode](https://twitter.com/_niicode)
 - LinkedIn: [Nii Darku](https://linkedin.com/in/nii-darku-dodoo-082018148/)
+
+👤 **Bantealem**
+
+- GitHub: [Bantealem](https://github.com/Bantealem)
+- Twitter: [Bantealem](https://twitter.com/BantealemG)
+- LinkedIn: [Bantealem](https://www.linkedin.com/in/bantealem-geto-a301b9213/)
 
 ## 🤝 Contributing
 

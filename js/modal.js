@@ -106,8 +106,8 @@ const appendWorks = (works) => {
             See Project
           </button>
         </div>
-        </section>`
-    };
+        </section>`;
+    }
   }
 };
 

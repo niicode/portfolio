@@ -602,10 +602,6 @@ form {
   display: flex;
 }
 
-.work-categories li {
-  width: fit-content;
-}
-
 .work-period ul {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -614,6 +610,7 @@ form {
 }
 
 .work-categories li {
+  width: fit-content;
   padding: 0.25rem 0.75rem;
   background: #ebebff;
   border-radius: 0.5rem;
@@ -730,6 +727,10 @@ form {
     display: -ms-inline-flexbox;
     display: inline-flex;
     padding-left: 0;
+    margin: 0.625rem 0.625rem 0;
+    font-weight: 600;
+    font-size: 0.8125rem;
+    line-height: 1rem;
   }
 
   .work-categories ul li {
@@ -737,13 +738,6 @@ form {
     background: #ebebff;
     border-radius: 0.5rem;
     color: #6070ff;
-  }
-
-  .work-period ul li {
-    margin: 0.625rem 0.625rem 0;
-    font-weight: 600;
-    font-size: 0.8125rem;
-    line-height: 1rem;
   }
 
   .work-item-2:hover {

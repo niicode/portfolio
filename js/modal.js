@@ -80,37 +80,38 @@ const languageHtml = (workObj, key, langList = '') => {
   return langList;
 };
 
-let workCard = "";
-let index = 0;
+let workCard = '';
+let index = 0; 
 
-/* eslint-enable no-restricted-syntax */
-for (const key in works) {
-  if (key) {
-    index += 1;
-    workCard += `  <section class="main-project-1 ${workCardShouldReverse(
-      index
-    )}">
-        <img src="${works[key].featured_image}" alt="${works[key].title}" />
-        <div class="card work-card">
-          <h3 class="font-style">${works[key].title}</h3>
-          <div class="card-highlights work-period"> 
-            <ul>
-              ${breadcrumbsHtml(works, key)} 
+const appendWorks = (works) => {
+  for (const key in works) {
+    if (key) {
+        index += 1;
+        workCard += `<section class="main-project-1 ${workCardShouldReverse(index)}">
+            <img src="${works[key].featured_image}" alt="${works[key].title}" />
+            <div class="card work-card">
+            <h3 class="font-style">${works[key].title}</h3>
+            <div class="card-highlights work-period"> 
+                <ul>
+                ${breadcrumbsHtml(works, key)} 
+                </ul>
+            </div>
+            <p class="font-style card-description">
+            ${works[key].description}
+            </p>
+            <ul class="card-languages">
+                ${languageHtml(works, key)}
             </ul>
-          </div>
-          <p class="font-style card-description">
-           ${works[key].description}
-          </p>
-          <ul class="card-languages">
-            ${languageHtml(works, key)}
-          </ul>
-          <button type="button" data-work="${key}" class="btn project-button">
-            See Project
-          </button>
-        </div>
-      </section>`;
-  };
-};
+            <button type="button" data-work="${key}" class="btn project-button">
+                See Project
+            </button>
+            </div>
+        </section>`;
+    };
+  }
+}
+
+appendWorks(works);
 
 workCardContainer.innerHTML = workCard;
 const seeProjectButtons = document.querySelectorAll('.project-button');

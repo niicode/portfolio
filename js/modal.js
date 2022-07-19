@@ -29,7 +29,7 @@ const works = [
     title: 'Printing Made Easy',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      details:
+    details:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     featured_image: './assets/images/screenshot4.png',
     lang_list: ['javascript', 'html', 'css'],
@@ -84,26 +84,26 @@ let workCard = '';
 
 const appendWorks = (works) => {
   for (let i = 0; i < works.length; i += 1) {
-      workCard += ` <section class="main-project-1 ${workCardShouldReverse(i)}">
-        <img src="${works[i].featured_image}" alt="${works[i].title}" />
-        <div class="card work-card">
-          <h3 class="font-style">${works[i].title}</h3>
-          <div class="card-highlights work-period"> 
-            <ul>
-              ${breadcrumbsHtml(works, i)} 
-            </ul>
-          </div>
-          <p class="font-style card-description">
-            ${works[i].description}
-          </p>
-          <ul class="card-languages">
-                ${languageHtml(works, i)}
+    workCard += ` <section class="main-project-1 ${workCardShouldReverse(i)}">
+      <img src="${works[i].featured_image}" alt="${works[i].title}" />
+      <div class="card work-card">
+        <h3 class="font-style">${works[i].title}</h3>
+        <div class="card-highlights work-period"> 
+          <ul>
+            ${breadcrumbsHtml(works, i)} 
           </ul>
-          <button type="button" data-work="${i}" class="btn project-button">
-            See Project
-          </button>
         </div>
-        </section>`;
+        <p class="font-style card-description">
+          ${works[i].description}
+        </p>
+        <ul class="card-languages">
+          ${languageHtml(works, i)}
+        </ul>
+        <button type="button" data-work="${i}" class="btn project-button">
+          See Project
+        </button>
+      </div>
+    </section>`;
   }
 };
 

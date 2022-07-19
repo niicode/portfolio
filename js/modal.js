@@ -81,13 +81,14 @@ const languageHtml = (workObj, key, langList = '') => {
 };
 
 let workCard = '';
-let index = 0; 
+let index = 0;
 
 const appendWorks = (works) => {
   for (const key in works) {
     if (key) {
-        index += 1;
-        workCard += `<section class="main-project-1 ${workCardShouldReverse(index)}">
+      index += 1;
+      workCard += ` <section class="main-project-1 ${workCardShouldReverse(
+            index)}">
             <img src="${works[key].featured_image}" alt="${works[key].title}" />
             <div class="card work-card">
             <h3 class="font-style">${works[key].title}</h3>
@@ -106,9 +107,9 @@ const appendWorks = (works) => {
                 See Project
             </button>
             </div>
-        </section>`;
+        </section>`
     };
-  }
+  };
 }
 
 appendWorks(works);

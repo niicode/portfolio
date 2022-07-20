@@ -434,6 +434,12 @@ form {
   width: 100%;
 }
 
+.error {
+  color: #f00;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
 .form-fieldset {
   border: none;
   margin-right: 0.9375rem;

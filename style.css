@@ -435,7 +435,7 @@ form {
 }
 
 .error {
-  color: #ff0000;
+  color: #f00;
   font-size: 1rem;
   margin-top: 5px;
 }

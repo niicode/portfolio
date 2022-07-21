@@ -1,4 +1,4 @@
-function storeFormData() { 
+function storeFormData() {
   const formObject = JSON.parse(localStorage.getItem('formObject'));
   formObject.name = document.querySelector('#name').value;
   formObject.email = document.querySelector('#email').value;
@@ -24,7 +24,7 @@ function checkLocalStorage() {
 
 window.onload = () => {
   checkLocalStorage(); // check if local storage is empty and if it is, create an empty object
-}
+};
 
 document.querySelector('#name').addEventListener('keydown', storeFormData);
 document.querySelector('#email').addEventListener('keydown', storeFormData);

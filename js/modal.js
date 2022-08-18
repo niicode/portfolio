@@ -23,7 +23,7 @@ const works = [
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Todo List', 'Frontend', '2022'],
     source: 'https://github.com/niicode/webpack-todo-app',
-    live_demo: 'hhttps://niicode.github.io/webpack-todo-app/',
+    live_demo: 'https://niicode.github.io/webpack-todo-app/',
   },
   {
     title: 'Facebook 360',

@@ -6,7 +6,7 @@ const works = [
     description:
      'A book storing app that allows users to add and remove books from a list.',
     details:
-      "This app was built using HTML, CSS, and JavaScript. It allows users to add and remove books from a list. The app uses local storage to store the list of books.",
+      'This app was built using HTML, CSS, and JavaScript. It allows users to add and remove books from a list. The app uses local storage to store the list of books.',
     featured_image: './assets/images/awesomebooks.png',
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Awesome Books', 'Frontend', '2022'],
@@ -18,7 +18,7 @@ const works = [
     description:
       'A todo list app that allows users to add and remove tasks from a list.',
     details:
-      "This app was built using HTML, CSS, and JavaScript and webpack. It allows users to add and remove tasks from a list. The app uses local storage to store the list of tasks.",
+      'This app was built using HTML, CSS, and JavaScript and webpack. It allows users to add and remove tasks from a list. The app uses local storage to store the list of tasks.',
     featured_image: './assets/images/todolist.png',
     lang_list: ['javascript', 'html', 'css'],
     breadcrumbs: ['Todo List', 'Frontend', '2022'],

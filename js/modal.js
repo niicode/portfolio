@@ -2,28 +2,28 @@ const workCardContainer = document.querySelector('.main-projects');
 
 const works = [
   {
-    title: 'Tonic',
+    title: 'Awesome Books',
     description:
-     'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+     'A book storing app that allows users to add and remove books from a list.',
     details:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featured_image: './assets/images/screenshot2.png',
+      "This app was built using HTML, CSS, and JavaScript. It allows users to add and remove books from a list. The app uses local storage to store the list of books.",
+    featured_image: './assets/images/awesomebooks.png',
     lang_list: ['javascript', 'html', 'css'],
-    breadcrumbs: ['CANOPY', 'Back End Dev', '2015'],
-    source: 'https://github.com/niicode/portfolio',
-    live_demo: 'https://niicode.github.io/portfolio/',
+    breadcrumbs: ['Awesome Books', 'Frontend', '2022'],
+    source: 'https://github.com/betses/Awesome-books-plain-Javascript',
+    live_demo: 'https://betses.github.io/Awesome-books-plain-Javascript/',
   },
   {
-    title: 'Multi-Post Stories',
+    title: 'Todo List',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'A todo list app that allows users to add and remove tasks from a list.',
     details:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    featured_image: './assets/images/screenshot3.png',
+      "This app was built using HTML, CSS, and JavaScript and webpack. It allows users to add and remove tasks from a list. The app uses local storage to store the list of tasks.",
+    featured_image: './assets/images/todolist.png',
     lang_list: ['javascript', 'html', 'css'],
-    breadcrumbs: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    source: 'https://github.com/niicode/portfolio',
-    live_demo: 'https://niicode.github.io/portfolio/',
+    breadcrumbs: ['Todo List', 'Frontend', '2022'],
+    source: 'https://github.com/niicode/webpack-todo-app',
+    live_demo: 'hhttps://niicode.github.io/webpack-todo-app/',
   },
   {
     title: 'Facebook 360',
